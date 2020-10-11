@@ -1,0 +1,411 @@
+  
+   .home{
+    padding: 5px;
+  }
+  
+  .home:hover{
+     border-bottom: 6px solid #006680;
+    background-image: url(image/PSU.png);
+    background-repeat: repeat-y;
+    background-size: 300px 300px;
+    background-position: right;
+    
+   }
+  
+  
+  
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    display: block;
+    color: rgb(4, 8, 75);
+    font-weight: bold;
+     font-size: 30px;
+      font-family: "Times New Roman", Times, serif;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #008299;
+  }
+  a{ text-decoration: none;
+  color:#08344d;;}
+  
+body{
+  background-color:rgb(205, 219, 217);
+font-family: 'Adamina',"Times New Roman", Times, serif;
+
+    }
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    
+    .bg {
+      /* The image used */
+      background-image: url("image/IT.jpg");
+    
+      /* Full height */
+      height: 100px; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+ .word{ 
+font-size: 50px;
+color: #08344d;
+text-align: center;
+text-shadow: 2px 2px 4px #000000;}
+
+.word:hover{color:	#007180;}
+.image{
+position: fixed;
+top: 0px;
+right: 500px;
+bottom: 10px;
+z-index: -1;
+opacity: 0.1;
+background-repeat: no-repeat;
+
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(242, 242, 242, 0.5);;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #7ccacf;
+  color: white;
+}
+.Beauty{text-align: left;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(242, 242, 242, 0.5);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Aboutus page*/
+
+* {box-sizing: border-box;
+  text-align: center;}
+  .mySlides {display: none;
+  width: 600px;
+      height: 600px;}
+  img {vertical-align: middle;}
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin-top: 50px;
+    margin-left:300px;
+    text-align: center;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .mySlides:hover{opacity: 0.5;
+     border-bottom: 6px solid #006d80;}
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    left: 557px;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .prev { position: absolute;
+          left: 0px; }
+  
+  /* Caption text */
+  .text {
+    background-color: rgba(242, 242, 242, 0.5);
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 600px;
+    text-align: center;
+  }
+  /* Number text (1/4 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: -60px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    width: 600px;
+      height: 600px;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1} }
+    
+     
+     .home{
+    padding: 5px;
+  }
+  
+  .home:hover{
+     border-bottom: 6px solid #56adcf;
+    background-image: url(image/PSU!.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: right;
+    
+   }
+  
+   .map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+  
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    display: block;
+    color: black;
+    font-weight: bold;
+     font-size: 30px;
+      font-family: "Times New Roman", Times, serif;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #56adcf;
+  }
+  a{ text-decoration: none;
+  color: #08344d;
+  padding:50px;}
+  
+  .text2 { position:relative;
+           bottom:530px;
+       border-style:solid;
+       color:#e6ffe6;
+       border-width: 50px;
+       padding:50px;
+       text-align:justify;
+       }
+       
+  .animation {
+    width: 100px;
+    height: 100px;
+    background-color:  #08344d;
+    animation-name: go;
+    animation-duration: 5s;
+    
+  }
+  
+  @keyframes go {
+    0%   {background-color: #00a5e6;}
+    25%  {background-color: #005c99;}
+    50%  {background-color: #002e4d;}
+    100% {background-color: #05004d;}
+  }		 
+  /*Contact us*/
+  
+  .column img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 1px 4px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+  
+      img {
+    opacity: 1.0;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+    border-bottom: 6px solid #56adcf;
+  }
+      
+  
+      .row img { margin-top: 8px;
+             margin-bottom: 8px;
+          vertical-align: middle;
+          padding: 0 4px;
+            width: 100%; }
+  
+     
+         label{ display: block;
+             width: 50%;
+             height: 10%;
+        margin-bottom: 10px;
+         border-style: hidden;
+       font-size: 20px;
+       font-weight: bolder;
+       background-color: rgba(242, 242, 242, 0.5);
+          
+             
+         }    
+          
+         input{ height:40% ;
+             width:40% } 
+         
+         .select{ background-color: aliceblue;
+     border: none; 
+     position :absolute;
+           width: 50%;
+             height: 15%;
+           margin-right: 30%; 
+             margin-left: -20%;
+        margin-bottom: 10px;
+             left: 30%;
+      }
+  
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=reset] {
+    width: 10%;
+    background-color:  #08344d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(242, 242, 242, 0.5);
+    color:  #08344d;
+    border: 1px solid #08344d;
+  }
+  input[type=submit] {
+    width: 10%;
+    background-color: #08344d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=reset]:hover {
+    background-color: rgba(242, 242, 242, 0.5);
+    color: #08344d;
+    border: 1px solid #08344d;
+  }
+  
+  
+  .this{
+    background-image: url(image/th.JPG);
+              background-clip: padding-box;
+              background-position: 100% center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-origin: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
